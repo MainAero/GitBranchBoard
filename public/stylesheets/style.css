@@ -1,0 +1,25 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+.server-branch-list table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.server-branch-list th, td {
+  text-align: left;
+  padding: 8px;
+}
+
+.server-branch-list tr:nth-child(even){background-color: #f2f2f2}
+
+.server-branch-list th {
+  background-color: #4CAF50;
+  color: white;
+}

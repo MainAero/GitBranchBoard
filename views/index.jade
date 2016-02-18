@@ -1,0 +1,16 @@
+extends layout
+
+block content
+  h1= title
+  p Welcome to #{title}
+  div.server-branch-list
+    table
+      thead
+        tr
+          th Server
+          th Branch
+      tbody
+        each serverBranch in serverBranchList
+          tr
+            td= serverBranch.server
+            td= serverBranch.branch
